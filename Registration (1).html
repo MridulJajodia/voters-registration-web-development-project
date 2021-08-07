@@ -1,0 +1,62 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<link rel="stylesheet" type="text/css" href="Registration.css">
+</head> 
+
+
+ 
+<body>  
+
+<form action="connect_Registration.php" method="post">  
+  <div class="container">  
+  <center>  <h1>Voter's Registeration Form</h1> </center>  
+  <hr>  
+  <label> <b> First name </b> </label>   
+<input type="text" placeholder= "First name" size="15"/ required name="firstname">   
+<label> <b> Middle name: </b> </label>   
+<input type="text" placeholder="Middle name" size="15"/ optional name="middlename">   
+<label> <b>  Last name: </b> </label>    
+<input type="text" placeholder="Last name" size="15"/ required name="lastname" >   
+<label> <b>  Father name: </b></label>    
+<input type="text" placeholder="Father name" size="15"/ required name="fathername">   
+<div> 
+   
+</select> 
+
+
+</div>  
+<div>  
+<label for="Birthday"><b>Birthday:</b>
+</label>
+	<input type="date" id="Birthday" name="birthday">
+
+  </div> 
+<label>   
+<b>Gender : </b> 
+</label><br>  
+<input type="radio"  name="gender" checked value="m"> Male   
+<input type="radio"  name="gender" value="f"> Female   
+<input type="radio"  name="gender" value="o"> Other  
+  
+</div>  
+
+
+<label>   
+<b>Mobile Number : </b> 
+</label>      
+<input type="text" placeholder="Mobile number" size="10"/ required name="mobileno">  
+  <b> Adhar Number : </b> 
+<input type="text" placeholder="Adhar number" size="12"/ required name="adharno">  
+ 
+<b> Current Address :  </b>
+<textarea cols="80" rows="5" placeholder="Current Address" value="address" required name="currentaddress">  
+</textarea>  
+  
+    <button type="submit" class="registerbtn"><b> Register </b></button>    
+</form>  
+</body>  
+</html> 

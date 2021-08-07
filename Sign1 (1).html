@@ -1,0 +1,116 @@
+<html> 
+	<head> 
+
+<link rel="stylesheet" type="text/css" href="Sign1.css">
+		<script> 
+			function () { 
+				var name = 
+					document.forms["RegForm"]["Name"]; 
+				var email = 
+					document.forms["RegForm"]["EMail"]; 
+				var phone = 
+					document.forms["RegForm"]["Mobile Number"]; 
+				var what = 
+					document.forms["RegForm"]["Adhar Number"]; 
+				var password = 
+					document.forms["RegForm"]["Password"]; 
+				
+
+				if (name.value == "") { 
+					window.alert("Please enter your name."); 
+					name.focus(); 
+					return false; 
+			
+
+				if (email.value == "") { 
+					window.alert( 
+					"Please enter a valid e-mail address."); 
+					email.focus(); 
+					return false; 
+				} 
+
+				if (phone.value == "") { 
+					window.alert( 
+					"Please enter your Mobile number."); 
+					phone.focus(); 
+					return false; 
+				} 
+
+				if (password.value == "") { 
+					window.alert("Please enter your password"); 
+					password.focus(); 
+					return false; 
+				} 
+
+				if (Adhar.value == "") { 
+					window.alert( 
+					"Please enter your Adhar number."); 
+					phone.focus(); 
+					return false; 
+				} 
+
+				return true; 
+			} 
+		</script> 
+
+
+</html>
+
+
+
+		
+	</head> 
+
+	<body> 
+
+
+	
+		<h1 style="text-align: center;">SIGN-UP FORM</h1> 
+
+
+	<form action="connect_sign.php" method="post">
+		<div class="container"> 
+			<lable> <b> NAME <b/> </lable>
+			 <input type="text" placeholder= "NAME" size="15"/required name="Name" >
+			<br>
+			
+			 <label><b> EMAIL ADDRESS <b/> </lable>
+			 <input type="text"placeholder= "email id" size="15"/required name="EMailAddress" >
+			<br>
+			 <lable><b> PASSWORD <b/> </label>
+			 <input type="text" placeholder= "password" size="15"/required name="Password" >
+			 <br>
+			<lable><b> MOBILE NUMBER <b/></lable>
+				<input type="text" placeholder= "mobilenumber" size="15"/required name="MobileNumber" >
+			<br>
+
+			<lable><b> ADHAR NUMBER <b/></lable>
+				<input type="text" placeholder= "adharnumber" size="15"/required name="AdharNumber">
+		<br>
+
+		<input type="checkbox" checked="checked"> Remember me
+			<p>To create an account you have to agree our <a href="#">Terms & Privacy</a>.</p>
+
+			<div class="clearfix">
+				<button type="button" class="cancelbtn">Cancel</button>
+				<button type="submit" class="signupbtn">Sign Up</button>
+			</div>
+		</div>
+	</form>
+
+
+		
+		
+
+<body>
+<body background= "vote5.jpg">
+
+
+
+
+			
+</body>
+
+	</body> 
+</html> 
+
